@@ -14,7 +14,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Various Command-Line Tools
-- Various Network Protocols (SSH, RDH, DNS, HTTP/S, ICMP)
+- Various Network Protocols (SSH, RDH, HTTP/S, ICMP)
 - Wireshark (Protocol Analyzer)
 
 <h2>Operating Systems Used </h2>
@@ -27,7 +27,6 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Configuring a Firewall [Network Security Group]
 - SSH (Secure Shell) into a Linux Server
 - Observe DHCP Traffic
-- Step 4
 
 <h2>Actions and Observations</h2>
 
@@ -47,10 +46,9 @@ Utilized Wireshark to apply an SSH filter for monitoring encrypted traffic. Usin
 </p>
 <br />
 
+![Screenshot (15)](https://github.com/user-attachments/assets/06006280-cbfc-4493-a2bd-20d829e3ed23)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Utilized Wireshark to capture and filter network traffic, isolating DHCP-specific packets. Subsequently, I developed a script using Notepad to automate the process of releasing the system's current DHCP lease and initiating a request for a new one. Upon executing the script, the network connection was successfully released and seamlessly renewed with a fresh DHCP lease  
 </p>
 <br />
