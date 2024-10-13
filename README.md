@@ -25,7 +25,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Configuring a Firewall [Network Security Group]
-- Step 2
+- SSH (Secure Shell) into a Linux Server
 - Step 3
 - Step 4
 
@@ -40,11 +40,10 @@ In Wireshark, I applied a filter to capture only ICMP traffic. Subsequently, I i
 </p>
 <br />
 
+![Screenshot (10)](https://github.com/user-attachments/assets/dd2d50fc-c7de-4e9a-8be7-4741d8bf5820)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Utilized Wireshark to apply an SSH filter for monitoring encrypted traffic. Using PowerShell on the Windows 10 VM, I established a secure SSH connection to the Linux server via Remote Desktop, enabling detailed traffic analysis.  
 </p>
 <br />
 
