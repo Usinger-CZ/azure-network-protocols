@@ -26,7 +26,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 - Configuring a Firewall [Network Security Group]
 - SSH (Secure Shell) into a Linux Server
-- Step 3
+- Observe DHCP Traffic
 - Step 4
 
 <h2>Actions and Observations</h2>
